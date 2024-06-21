@@ -212,12 +212,13 @@ button {
 footer {
     background: rgb(14, 27, 53);
     color: #fff;
-    padding: 25px 0;
+    padding: 20px 0;
     text-align: center;
     width: 100%;
     position: relative;
     left: 0;
     margin: 0;
+    margin: 100%;
 }
 
 .footer-content {
