@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const message = document.querySelector('textarea[name="message"]').value;
 
         try {
-            await emailjs.send('service_awyqebr', 'template_zz6q2ur', {
+            await emailjs.send('service_awyqebr', 'template_mfkytu3', {
                 to_email: 'raniarosaa12@gmail.com',
                 from_name: name,
                 from_email: email,
