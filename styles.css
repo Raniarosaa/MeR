@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;   
+}
+
+html{
+    scroll-padding: 5rem;
+}
+
+body {
+    background-color: rgb(161, 183, 237);
+    min-height: 100vh; /* تصحيح القيمة هنا */
+    font-family: 'Lilita One', cursive;
+    font-size: 1rem;
+}
+
+header {
+    background-color: #fff;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* reset button */
+button {
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+    text-transform: none;
+    line-height: normal;
+    overflow: visible;
+}
+
+#home,
+#about,
+#services,
+#Portfolio,
+#contact {
+    text-align: center;
+    padding: 100px 0; /* تجميع القواعد الثلاثة لتجنب التكرار */
+}
+
+#home {
+    color: rgb(14, 27, 53);
+    margin-top: 60px;
+    font-size: 30px;
+    height: 450px;;
+}
+
+#home span {
+    color: white;
+    font-family: "Sevillana", cursive;
+    font-size: 27px;
+}
+
+#home a {
+    background-color: rgb(14, 27, 53);
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#home a:hover {
+    color: rgb(161, 183, 237);
+}
+.social-icons i{
+    color:rgb(255, 255, 255) ;
+}
+.social-icons i:hover{
+    color: rgb(161, 183, 237);
+}
+
+#about h1 {
+    color: rgb(14, 27, 53);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#about p {
+
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+#services h1 {
+    font-size: 35px;
+}
+
+.card-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.card p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Hover effect */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-container h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-container p {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.contact-info .info-item {
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.contact-info .info-item i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: rgb(14, 27, 53);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    background: rgb(14, 27, 53);
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background: #ffffff;
+    color: rgb(14, 27, 53);
+}
+
+footer {
+    background: rgb(14, 27, 53);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    left: 0;
+    margin: 0;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-content h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+.footer-content p {
+    margin: 10px 0 20px;
+    color: rgb(161, 183, 237) ;
+}
+
+.footer-content .socials {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content .socials li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-content .socials li a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+#clock{
+    margin-top: 10px;
+}
